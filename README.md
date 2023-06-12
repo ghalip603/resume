@@ -1,6 +1,10 @@
-# default
+# 前端开发工程师 个人简历 Front-end Programmer
 
-## Project setup
+
+
+
+## 安装依赖 / Project setup
+
 
 ```
 # yarn
@@ -12,8 +16,8 @@ npm install
 # pnpm
 pnpm install
 ```
+### 启动项目 / for development
 
-### Compiles and hot-reloads for development
 
 ```
 # yarn
@@ -25,8 +29,8 @@ npm run dev
 # pnpm
 pnpm dev
 ```
+### 项目打包📦 /for production
 
-### Compiles and minifies for production
 
 ```
 # yarn
@@ -41,4 +45,4 @@ pnpm build
 
 ### Customize configuration
 
-See [Configuration Reference](https://vitejs.dev/config/).
+
