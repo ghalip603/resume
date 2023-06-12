@@ -1,11 +1,9 @@
 <template>
   <v-app>
-    <v-main>
-      <HelloWorld />
-    </v-main>
+      <index />
   </v-app>
 </template>
 
 <script setup lang="ts">
-  import HelloWorld from '@/components/HelloWorld.vue'
+  import index from '@/views/Resume/index.vue'
 </script>

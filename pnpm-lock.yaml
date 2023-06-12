@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@babel/types': ^7.21.4
   '@iconify/tools': ^3.0.2
+  '@iconify/vue': ^4.1.1
   '@mdi/font': 7.0.96
   '@types/node': ^18.15.0
   '@types/webfontloader': ^1.6.35
@@ -37,6 +38,7 @@ dependencies:
 
 devDependencies:
   '@babel/types': registry.npmmirror.com/@babel/types/7.22.5
+  '@iconify/vue': registry.npmmirror.com/@iconify/vue/4.1.1_vue@3.3.4
   '@types/node': registry.npmmirror.com/@types/node/18.16.17
   '@types/webfontloader': registry.npmmirror.com/@types/webfontloader/1.6.35
   '@vitejs/plugin-vue': registry.npmmirror.com/@vitejs/plugin-vue/4.2.3_vite@4.3.9+vue@3.3.4
@@ -411,7 +413,6 @@ packages:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@iconify/types/-/types-2.0.0.tgz}
     name: '@iconify/types'
     version: 2.0.0
-    dev: false
 
   registry.npmmirror.com/@iconify/utils/2.1.6:
     resolution: {integrity: sha512-WJNcj/mmFQoYok+576EexlCQe/g2tZ8X9jR4QLo++z6DlVqrjwt7FBYetTQ3iyTtrPMFHcAx0JiCqtUz30XG5A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@iconify/utils/-/utils-2.1.6.tgz}
@@ -427,6 +428,18 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: false
+
+  registry.npmmirror.com/@iconify/vue/4.1.1_vue@3.3.4:
+    resolution: {integrity: sha512-RL85Bm/DAe8y6rT6pux7D2FJSiUEM/TPfyK7GrbAOfTSwrhvwJW+S5yijdGcmtXouA8MtuH9C7l4hiSE4mLMjg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@iconify/vue/-/vue-4.1.1.tgz}
+    id: registry.npmmirror.com/@iconify/vue/4.1.1
+    name: '@iconify/vue'
+    version: 4.1.1
+    peerDependencies:
+      vue: '>=3'
+    dependencies:
+      '@iconify/types': registry.npmmirror.com/@iconify/types/2.0.0
+      vue: registry.npmmirror.com/vue/3.3.4
+    dev: true
 
   registry.npmmirror.com/@jridgewell/sourcemap-codec/1.4.15:
     resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.15.tgz}
