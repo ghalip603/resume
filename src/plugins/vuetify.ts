@@ -20,7 +20,9 @@ export default createVuetify({
           primary: '#1867C0',
           secondary: '#5CBBF6',
           naiyoubai:'#029d94',
-          isimga:'#456990'
+          isimga:'#456990',
+          kulrang:'#666667',
+          naibaihui:'#f8f6f6',
         },
       },
     },

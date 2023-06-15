@@ -16,7 +16,7 @@
     v-model="drawer"
   >
         <v-list class="pa-2 text-sm-h6 ">
-          <v-list-subheader class="text-sm-h4 pa-10">REPORTS</v-list-subheader>
+          <v-list-subheader class="text-sm-h4 pa-10">导航</v-list-subheader>
           <!--导航栏项目循环-->
           <v-list-item
             v-for="(item, i) in items"
@@ -58,7 +58,7 @@ const drawer = ref(null)
 const items = ref()
 
 onMounted(() => {
-  axios.get('http://localhost:1337/api/items?populate=*')
+  axios.get('http://192.168.31.14:1337/api/items?populate=*')
     .then(function (response) {
       // handle success
       items.value = response.data.data
